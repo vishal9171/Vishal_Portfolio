@@ -2023,3 +2023,178 @@ textarea.form-control {
     stroke-dashoffset: -136px;
   }
 }
+// === Custom Skill Section Styling ===
+
+.skill-group {
+  background-color: #ffffff;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.skill-group:hover {
+  transform: scale(1.05);
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+}
+
+.skill-group h4 {
+  font-weight: 700;
+}
+
+.skill-group ul {
+  padding-left: 0;
+  margin-bottom: 0;
+}
+
+.skill-group li {
+  font-size: 14px;
+  margin-bottom: 6px;
+  color: #555;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.skill-group li i {
+  margin-right: 6px;
+  color: #007bff;
+}
+.skill-group i {
+  margin-right: 6px;
+  font-size: 14px;
+}
+
+.skill-group .section-icon {
+  font-size: 30px;
+  margin-bottom: 10px;
+  color: #007bff; /* Use any theme color */
+}
+
+.skill-group ul li i {
+  color: #17a2b8; /* Teal / info blue for individual skill icons */
+}
+.skill-group {
+  width: 280px;
+  height: 280px;
+  background-color: #fff;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+  transition: transform 0.3s ease;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.skill-group:hover {
+  transform: scale(1.05);
+}
+
+.skill-group h4 {
+  font-weight: 700;
+}
+
+.skill-group ul {
+  padding-left: 0;
+  margin: 0;
+}
+
+.skill-group li {
+  font-size: 14px;
+  margin-bottom: 6px;
+  color: #555;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.skill-group li i {
+  margin-right: 6px;
+}
+
+/* Color themes for sections */
+.skill-group .section-icon {
+  font-size: 30px;
+  margin-bottom: 10px;
+}
+
+.skill-blue .section-icon { color: #007bff; }
+.skill-yellow .section-icon { color: #ffc107; }
+.skill-green .section-icon { color: #28a745; }
+.skill-red .section-icon { color: #dc3545; }
+.skill-orange .section-icon { color: #fd7e14; }
+/* Color-coded section icons */
+.skill-blue .section-icon {
+  color: #007bff; // Blue
+}
+
+.skill-yellow .section-icon {
+  color: #ffc107; // Yellow
+}
+
+.skill-green .section-icon {
+  color: #28a745; // Green
+}
+
+.skill-red .section-icon {
+  color: #dc3545; // Red
+}
+
+.skill-orange .section-icon {
+  color: #fd7e14; // Orange
+}
+.skill-group {
+  width: 280px;
+  height: 280px;
+  background-color: #ffffff;
+  border: 1px solid #eaeaea;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+  transition: all 0.4s ease;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.skill-group:hover {
+  color: #fff;
+}
+
+.skill-group h4,
+.skill-group ul li {
+  transition: color 0.3s ease;
+}
+
+.skill-group:hover h4,
+.skill-group:hover ul li {
+  color: #ffffff;
+}
+
+.skill-group .section-icon {
+  font-size: 30px;
+  margin-bottom: 10px;
+  transition: color 0.3s ease;
+}
+
+.skill-group:hover .section-icon {
+  color: #ffffff;
+}
+
+/* Color hover fill backgrounds */
+.skill-blue:hover {
+  background-color: #007bff;
+}
+
+.skill-yellow:hover {
+  background-color: #ffc107;
+}
+
+.skill-green:hover {
+  background-color: #28a745;
+}
+
+.skill-red:hover {
+  background-color: #dc3545;
+}
+
+.skill-orange:hover {
+  background-color: #fd7e14;
+}
